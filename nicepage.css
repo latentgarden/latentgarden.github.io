@@ -39695,9 +39695,9 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-image-1 {
-  width: 68px;
-  height: 68px;
-  margin: -59px auto 0 137px;
+  width: 59px;
+  height: 59px;
+  margin: -54px auto 4px 146px;
 }
 
 .u-header .u-logo-image-1 {
@@ -39731,7 +39731,7 @@ a.u-link.u-text-hover-grey-90:hover {
 
 @media (max-width: 575px) {
   .u-header .u-image-1 {
-    margin-left: 86px;
+    margin-left: 92px;
   }
 }
 
