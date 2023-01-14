@@ -57,7 +57,7 @@
   --animation-custom_in-scale: 1;
   line-height: 2;
   font-weight: 700;
-  margin: 21px 96px 0 2px;
+  margin: 0 96px 0 2px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -72,7 +72,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.27;
-  margin: 21px auto 0 0;
+  margin: 42px auto 0 0;
   padding: 14px 52px 16px 51px;
 }
 
@@ -223,14 +223,14 @@
 }
 
 .u-section-2 .u-sheet-1 {
-  min-height: 1158px;
+  min-height: 1126px;
 }
 
 .u-section-2 .u-group-1 {
   width: 790px;
   min-height: 1066px;
   height: auto;
-  margin: 61px auto 31px;
+  margin: 60px auto 0;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -270,7 +270,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 106px auto 0 0;
+  margin: 79px auto 0 0;
   padding: 17px 46px 17px 45px;
 }
 
