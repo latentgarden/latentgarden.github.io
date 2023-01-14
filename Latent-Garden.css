@@ -1,11 +1,11 @@
  .u-section-1 {
   background-image: url("/images/gh.jpg");
   background-position: 50% 50%;
-  min-height: 751px;
+  min-height: 870px;
 }
 
 .u-section-1 .u-layout-wrap-1 {
-  margin-top: -2px;
+  margin-top: 117px;
   margin-bottom: 0;
 }
 
@@ -38,23 +38,26 @@
 }
 
 .u-section-1 .u-text-2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 30px 78px 0 1px;
+  line-height: 2;
+  margin: 21px 40px 0 0;
 }
 
 .u-section-1 .u-text-3 {
-  font-size: 1.125rem;
+  font-size: 1.5rem;
   --animation-custom_in-translate_x: 300px;
   --animation-custom_in-translate_y: 0px;
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 30px 95px 0 1px;
+  line-height: 2;
+  font-weight: 700;
+  margin: 104px 96px 0 0;
 }
 
 .u-section-1 .u-btn-1 {
@@ -69,7 +72,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 0.27;
-  margin: 46px auto 0 1px;
+  margin: 31px auto 0 0;
   padding: 14px 52px 16px 51px;
 }
 
@@ -109,17 +112,11 @@
 
   .u-section-1 .u-text-2 {
     font-size: 1.125rem;
-    margin-left: 0;
     margin-right: 38px;
   }
 
   .u-section-1 .u-text-3 {
     margin-right: 2px;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-btn-1 {
-    margin-left: 0;
   }
 }
 
@@ -230,9 +227,9 @@
 
 .u-section-2 .u-group-1 {
   width: 790px;
-  min-height: 1027px;
+  min-height: 1066px;
   height: auto;
-  margin: 61px auto 60px;
+  margin: 61px auto 31px;
 }
 
 .u-section-2 .u-container-layout-1 {
@@ -257,7 +254,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -16px 48px 0 0;
+  margin: 0 48px 0 0;
 }
 
 .u-section-2 .u-btn-1 {
@@ -272,7 +269,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: 85px auto 0 0;
+  margin: 106px auto 0 0;
   padding: 17px 46px 17px 45px;
 }
 
