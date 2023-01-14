@@ -1,11 +1,11 @@
 body {
-    font-family: Arial, sans-serif;
-    color: rgb(219, 23, 23);
+    font-family: Georgia, serif;
+    color: rgb(77, 73, 73);
 }
   
 header {
 background-color: rgb(168, 172, 169);
-padding: 20px;
+padding: 25px;
 }
 
 nav a {
