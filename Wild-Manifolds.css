@@ -1,6 +1,6 @@
 .u-gallery-inner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 15px;
   padding: 15px;
   max-width: 100%;
@@ -139,7 +139,7 @@
   }
   
   .u-gallery-inner {
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -159,7 +159,7 @@
 
 /* Header Styles */
 .u-header {
-  background-color: transparent;
+  background-color: white;
   transition: background-color 0.3s ease;
 }
 
@@ -169,7 +169,7 @@
 }
 
 .u-section-row-1 {
-  background-color: transparent;
+  background-color: white;
   transition: background-color 0.3s ease;
 }
 
