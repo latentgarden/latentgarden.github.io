@@ -1,8 +1,9 @@
 .u-gallery-inner {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 15px;
   padding: 15px;
+  max-width: 100%;
 }
 
 .u-gallery-item {
@@ -10,7 +11,9 @@
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  height: 200px;
+  max-height: 150px;
+  width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .u-gallery-item:hover {
@@ -55,18 +58,9 @@
   padding: 0 20px;
 }
 
-/* Verbesserte Navigation Buttons */
+/* Navigation Buttons ausblenden */
 .u-gallery-nav {
-  background: rgba(44, 62, 80, 0.9);
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-  transition: all 0.3s ease;
-}
-
-.u-gallery-nav:hover {
-  background: rgba(44, 62, 80, 1);
-  transform: scale(1.1);
+  display: none !important;
 }
 
 .u-hero-section {
@@ -120,6 +114,17 @@
   }
 }
 
+/* Responsive Anpassungen */
+@media (min-width: 1200px) {
+  .u-gallery-item {
+    max-height: 150px;
+  }
+  
+  .u-gallery-inner {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .hero-title {
     font-size: 2.5rem;
@@ -129,20 +134,12 @@
     font-size: 1.2rem;
   }
   
-  .u-gallery-inner {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-  
-  .u-text-1 {
-    font-size: 2rem;
-  }
-  
-  .u-hero-section {
-    height: 30vh;
-  }
-  
   .u-gallery-item {
-    height: 150px;
+    max-height: 150px;
+  }
+  
+  .u-gallery-inner {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 }
 
@@ -151,11 +148,31 @@
     font-size: 2rem;
   }
   
+  .u-gallery-item {
+    max-height: 150px;
+  }
+  
   .u-gallery-inner {
     grid-template-columns: 1fr;
   }
-  
-  .u-gallery-item {
-    height: 180px;
-  }
+}
+
+/* Header Styles */
+.u-header {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.u-sticky-fixed {
+  background-color: white !important;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.u-section-row-1 {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.u-sticky-fixed .u-section-row-1 {
+  background-color: white !important;
 }
