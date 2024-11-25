@@ -1,17 +1,17 @@
 .u-gallery-inner {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-  padding: 15px;
+  gap: 10px;
+  padding: 10px;
   max-width: 100%;
 }
 
 .u-gallery-item {
   transition: transform 0.3s ease;
-  border-radius: 12px;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  max-height: 150px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  max-height: 200px;
   width: 100%;
   aspect-ratio: 1/1;
 }
@@ -64,7 +64,7 @@
 }
 
 .u-hero-section {
-  height: 40vh;
+  height: 25vh;
   background: linear-gradient(135deg, #1a2a6c 0%, #b21f1f 50%, #fdbb2d 100%);
   display: flex;
   align-items: center;
@@ -72,17 +72,21 @@
   text-align: center;
   color: white;
   position: relative;
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 
 .hero-content {
   max-width: 800px;
   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
 }
 
 .hero-title {
   font-size: 3.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -95,10 +99,8 @@
 }
 
 .hero-scroll-indicator {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
+  position: static;
+  transform: none;
   animation: bounce 2s infinite;
 }
 
@@ -117,7 +119,7 @@
 /* Responsive Anpassungen */
 @media (min-width: 1200px) {
   .u-gallery-item {
-    max-height: 150px;
+    max-height: 200px;
   }
   
   .u-gallery-inner {
@@ -135,7 +137,7 @@
   }
   
   .u-gallery-item {
-    max-height: 150px;
+    max-height: 200px;
   }
   
   .u-gallery-inner {
@@ -149,7 +151,7 @@
   }
   
   .u-gallery-item {
-    max-height: 150px;
+    max-height: 200px;
   }
   
   .u-gallery-inner {
